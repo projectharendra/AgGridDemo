@@ -13,6 +13,8 @@ import { AgContextMenuComponent } from './ag-context-menu/ag-context-menu.compon
 import { AgColumnMenuComponent } from './ag-column-menu/ag-column-menu.component';
 import { AgExcelExportComponent } from './ag-excel-export/ag-excel-export.component';
 import { AgInfiniteScrollingComponent } from './ag-infinite-scrolling/ag-infinite-scrolling.component';
+import { AgTreeListComponent } from './ag-tree-list/ag-tree-list.component';
+import { AgTreeList1Component } from './ag-tree-list1/ag-tree-list1.component';
 
 
 
@@ -26,7 +28,9 @@ import { AgInfiniteScrollingComponent } from './ag-infinite-scrolling/ag-infinit
     AgContextMenuComponent,
     AgColumnMenuComponent,
     AgExcelExportComponent,
-    AgInfiniteScrollingComponent
+    AgInfiniteScrollingComponent,
+    AgTreeListComponent,
+    AgTreeList1Component
   ],
   imports: [
     BrowserModule,

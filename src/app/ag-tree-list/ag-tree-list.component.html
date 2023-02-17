@@ -1,0 +1,16 @@
+<h2 style="text-align: center"> TREE LIST</h2>
+
+<ag-grid-angular
+    style="width: 98%; height: 80%;"
+    class="ag-theme-alpine"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    [autoGroupColumnDef]="autoGroupColumnDef"
+    [treeData]="true"
+    [animateRows]="true"
+    [groupDefaultExpanded]="groupDefaultExpanded"
+    [getDataPath]="getDataPath"
+    [getRowId]="getRowId"
+    [rowData]="rowData"
+    (gridReady)="onGridReady($event)"
+  ></ag-grid-angular>
