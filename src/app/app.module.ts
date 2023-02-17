@@ -10,6 +10,8 @@ import { AgGridBasicComponent } from './ag-grid-basic/ag-grid-basic.component';
 import { AgStatusBarComponent } from './ag-status-bar/ag-status-bar.component';
 import { AgSideBarComponent } from './ag-side-bar/ag-side-bar.component';
 import { AgContextMenuComponent } from './ag-context-menu/ag-context-menu.component';
+import { AgColumnMenuComponent } from './ag-column-menu/ag-column-menu.component';
+import { AgExcelExportComponent } from './ag-excel-export/ag-excel-export.component';
 
 
 
@@ -20,7 +22,9 @@ import { AgContextMenuComponent } from './ag-context-menu/ag-context-menu.compon
     AgGridBasicComponent,
     AgStatusBarComponent,
     AgSideBarComponent,
-    AgContextMenuComponent
+    AgContextMenuComponent,
+    AgColumnMenuComponent,
+    AgExcelExportComponent
   ],
   imports: [
     BrowserModule,
