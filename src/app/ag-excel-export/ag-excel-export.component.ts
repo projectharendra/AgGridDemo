@@ -10,6 +10,13 @@ import { IOlympicData } from '../models/olympicdata';
   styleUrls: ['./ag-excel-export.component.scss']
 })
 export class AgExcelExportComponent {
+
+/*----------------------------------------
+  npm install --save ag-grid-community
+  npm install --save ag-grid-enterprise
+  npm install --save ag-grid-angular
+  
+  --------------------------------------- */
   private gridApi!: GridApi<IOlympicData>;
 
   public columnDefs: ColDef[] = [
