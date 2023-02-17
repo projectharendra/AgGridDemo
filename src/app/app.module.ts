@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgGridBasicComponent } from './ag-grid-basic/ag-grid-basic.component';
 import { AgStatusBarComponent } from './ag-status-bar/ag-status-bar.component';
+import { AgSideBarComponent } from './ag-side-bar/ag-side-bar.component';
+import { AgContextMenuComponent } from './ag-context-menu/ag-context-menu.component';
 
 
 
@@ -16,7 +18,9 @@ import { AgStatusBarComponent } from './ag-status-bar/ag-status-bar.component';
   declarations: [
     AppComponent,
     AgGridBasicComponent,
-    AgStatusBarComponent
+    AgStatusBarComponent,
+    AgSideBarComponent,
+    AgContextMenuComponent
   ],
   imports: [
     BrowserModule,

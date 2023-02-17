@@ -3,7 +3,7 @@ import { Component, ViewChild } from '@angular/core';
 import { AgGridAngular } from 'ag-grid-angular';
 import { CellClickedEvent, ColDef, GridReadyEvent } from 'ag-grid-community';
 import { Observable } from 'rxjs';
- import 'ag-grid-enterprise';
+import 'ag-grid-enterprise';
 
 @Component({
   selector: 'app-ag-grid-basic',

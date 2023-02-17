@@ -1,12 +1,13 @@
-<h2 style="text-align: center">STATUS BAR</h2>
+<h2 style="text-align: center">CONTEXT MENU</h2>
+
 <ag-grid-angular
-    style="width: 100%; height: 85%;"
+    style="width: 100%; height: 80%;"
     class="ag-theme-alpine"
     [columnDefs]="columnDefs"
     [defaultColDef]="defaultColDef"
     [enableRangeSelection]="true"
-    [rowSelection]="rowSelection"
-    [statusBar]="statusBar"
+    [allowContextMenuWithControlKey]="true"
+    [getContextMenuItems]="getContextMenuItems"
     [rowData]="rowData"
     (gridReady)="onGridReady($event)"
   ></ag-grid-angular>
