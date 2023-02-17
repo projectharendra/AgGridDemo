@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
 import { AgGridModule } from 'ag-grid-angular';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgGridBasicComponent } from './ag-grid-basic/ag-grid-basic.component';
@@ -12,6 +12,7 @@ import { AgSideBarComponent } from './ag-side-bar/ag-side-bar.component';
 import { AgContextMenuComponent } from './ag-context-menu/ag-context-menu.component';
 import { AgColumnMenuComponent } from './ag-column-menu/ag-column-menu.component';
 import { AgExcelExportComponent } from './ag-excel-export/ag-excel-export.component';
+import { AgInfiniteScrollingComponent } from './ag-infinite-scrolling/ag-infinite-scrolling.component';
 
 
 
@@ -24,7 +25,8 @@ import { AgExcelExportComponent } from './ag-excel-export/ag-excel-export.compon
     AgSideBarComponent,
     AgContextMenuComponent,
     AgColumnMenuComponent,
-    AgExcelExportComponent
+    AgExcelExportComponent,
+    AgInfiniteScrollingComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,7 @@ import { AgExcelExportComponent } from './ag-excel-export/ag-excel-export.compon
     HttpClientModule,
     AgGridModule,
     NgbModule,
-    
+    FormsModule
  
   ],
   providers: [],
